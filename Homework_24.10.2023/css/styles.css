@@ -1,0 +1,22 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+div {
+    background-color: #D9D9D9;
+    margin: 10px;
+    padding: 10px;
+}
+h1 {
+    font-size: 26px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: 40px;
+}
+p {
+    color: white;
+    font-size: 16px;
+    margin: 10px;
+    padding: 21px 41px 21px 41px;
+    background-color: #34495E;
+    border-radius: 20px;
+}
