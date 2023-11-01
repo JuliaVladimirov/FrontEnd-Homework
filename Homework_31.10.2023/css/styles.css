@@ -1,0 +1,115 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.level_1 {
+    width: 420px;
+    height: 426px;
+    background-color: white;
+    border: none;
+    border-radius: 20px;
+    box-shadow: 0px 20px 20px 10px #D1D1D1;
+    margin: 40px;
+    position: relative
+}
+
+.button_1 {
+    position: absolute;
+    padding: 0;
+    right: 16px;
+    top: 16px;
+    width: 24px;
+    height: 24px;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 0px;
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+.level_2 {
+    position: absolute;
+    padding: 0px 16px 16px 16px;
+    right: 16px;
+    left: 16px;
+    top: 40px;
+    bottom: 16px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.p_1 {
+    font-family: 'Nunito', sans-serif;
+    font-weight: 800;
+    font-size: 28px;
+    margin-bottom: 24px;
+    line-height: 32px;
+}
+
+form div {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+form div input {
+    padding: 14px 16px 14px 16px;
+    border: 1px solid #7B8E98;
+    border-radius: 12px;
+    margin-bottom: 8px;
+    font-family: 'Nunito', sans-serif;
+    color: black;
+    font-size: 16px;
+    line-height: 20px;
+}
+
+form div input:focus {
+    border: 1px solid #FFE44D;
+    outline: none;
+    padding: 21px 16px 7px 16px;
+}
+
+
+form div input::placeholder {
+    color: #7B8E98;
+}
+
+.p_2 {
+    font-family: 'Nunito', sans-serif;
+    font-size: 12px;
+    line-height: 14px;
+    margin: 16px 0px 24px 0px;
+    color: #7B8E98;
+}
+
+.button_2 {
+    padding: 14px;
+    font-family: 'Nunito', sans-serif;
+    font-size: 16px;
+    font-weight: 800;
+    width: 100%;
+    margin-bottom: 8px;
+    padding: 14px;
+    border: none;
+    border-radius: 55px;
+    background-color: #FFE44D;
+    line-height: 20px;
+}
+
+.button_3 {
+    padding: 14px;
+    font-family: 'Nunito', sans-serif;
+    font-size: 16px;
+    font-weight: 800;
+    width: 100%;
+    padding: 14px;
+    border: 1px solid #7B8E98;
+    border-radius: 55px;
+    background-color: transparent;
+    line-height: 20px;
+}
