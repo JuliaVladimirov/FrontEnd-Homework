@@ -54,9 +54,10 @@ main div {
 main input {
     width: 100%;
     margin: 10px 0px 10px 0px;
+    outline: none;
     border-radius: 5px;
     padding: 5px;
-    border: 1px solid gray;
+    border: 1px solid #CFCFCF;
 }
 
 select {
@@ -65,7 +66,7 @@ select {
     justify-content: flex-start;
     margin: 10px 0px 10px 0px;
     border-radius: 5px;
-    border: 1px solid gray;
+    border: 1px solid #CFCFCF;
     padding: 5px;
 
 }
@@ -77,19 +78,25 @@ option {
     width: auto;
 }
 
-
-/* input[type=radio]{
-    width: none;
+main div div {
+    display: inline-block;
 }
+
+
+input[type=radio] {
+    width: auto;
+}
+
 input[type=checkbox] {
-    width: none;
-} */
+    width: auto;
+}
 
 textarea {
     resize: none;
     margin: 10px 0px 10px 0px;
+    outline: none;
     border-radius: 5px;
-    border: 1px solid gray;
+    border: 1px solid #CFCFCF;
     padding: 5px;
 }
 
@@ -97,19 +104,34 @@ textarea {
     width: 100px;
     margin: 0 auto;
 
-
 }
 
 button {
     color: white;
-    background-color: blue;
+    background-color: #0073E6;
+    border: none;
     border-radius: 5px;
-
+    padding: 6px 10px;
 }
 
-label:hover {
-    color: blue;
+label:hover,
+label:hover~input::placeholder,
+label:hover~select,
+label:hover~input[type=date] {
+    color: #0073E6;
 }
+
+label:hover~input,
+label:hover~textarea,
+label:hover~select {
+    border: 1px solid #0073E6;
+}
+
+
 button:hover {
     cursor: pointer;
+}
+
+.single {
+    margin: 10px;
 }

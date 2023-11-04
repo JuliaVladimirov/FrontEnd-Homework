@@ -17,9 +17,9 @@
         <main>
             <form method="post">
                 <div>
-                    <label for="name">Name</label>
-                    <input type="text" id="name" placeholder="First Name">
-                    <input type="text" id="name" placeholder="Last Name">
+                    <label for="fname">Name</label>
+                    <input type="text" id="fname" placeholder="First Name">
+                    <input type="text" id="lname" placeholder="Last Name">
                 </div>
                 <div>
                     <label for="email">Email</label>
@@ -31,7 +31,7 @@
                 </div>
                 <div>
                     <label for="calendar">When are you planning to vizit?</label>
-                    <input type="date" id="calendar" placeholder="mm/dd/yyyy">
+                    <input type="date" id="calendar">
                 </div>
                 <div>
                     <label for="people">How many people are in your group?</label>
@@ -52,23 +52,37 @@
                 </div>
                 <div>
                     <label class="single">What is the best way to contact you?</label>
-
-                    <input type="checkbox" name="phone" id="phone_checkbox">
+                    <div>
+                        <input type="checkbox" name="phone" id="phone_checkbox">
                     <label for="phone_checkbox">Phone</label>
-                    <input type="checkbox" name="email" id="email_checkbox">
+                    </div>
+                    <div>
+                        <input type="checkbox" name="email" id="email_checkbox">
                     <label for="email_checkbox">Email</label>
-                    <input type="checkbox" name="either" id="either_checkbox">
+                    </div>
+                    <div>
+                         <input type="checkbox" name="either" id="either_checkbox">
                     <label for="either_checkbox">Either</label>
+                    </div>
+                    
+                    
+                   
                 </div>
                 <div>
                     <label class="single">If phone, when is the best time of day for a call-back?</label>
-
-                    <input type="radio" name="hours" id="morning_radio" value="morning">
+                    <div>
+                        <input type="radio" name="hours" id="morning_radio" value="morning">
                     <label for="morning_radio">8 -11 AM</label>
-                    <input type="radio" name="hours" id="day_radio" value="day">
+                    </div>
+                    <div>
+                        <input type="radio" name="hours" id="day_radio" value="day">
                     <label for="day_radio">12 - 4 PM</label>
-                    <input type="radio" name="hours" id="evening_radio" value="evening">
+                    </div>
+                    <div> 
+                        <input type="radio" name="hours" id="evening_radio" value="evening">
                     <label for="evening_radio">6 - 10 PM</label>
+                    </div>
+                   
                 </div>
                 <div>
                     <label for="Notes">Anything else we should know?</label>
