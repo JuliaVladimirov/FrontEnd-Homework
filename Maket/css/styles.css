@@ -46,7 +46,7 @@ main div {
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
-    
+
 }
 
 
@@ -69,6 +69,7 @@ select {
     padding: 5px;
 
 }
+
 option {
     display: flex;
     flex-direction: column;
@@ -77,5 +78,38 @@ option {
 }
 
 
-/* input[type'radio]
-input[type=checkbox] */
+/* input[type=radio]{
+    width: none;
+}
+input[type=checkbox] {
+    width: none;
+} */
+
+textarea {
+    resize: none;
+    margin: 10px 0px 10px 0px;
+    border-radius: 5px;
+    border: 1px solid gray;
+    padding: 5px;
+}
+
+.button_block {
+    width: 100px;
+    margin: 0 auto;
+
+
+}
+
+button {
+    color: white;
+    background-color: blue;
+    border-radius: 5px;
+
+}
+
+label:hover {
+    color: blue;
+}
+button:hover {
+    cursor: pointer;
+}
