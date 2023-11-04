@@ -16,7 +16,7 @@ body {
 }
 
 header {
-    background-color: aquamarine;
+    background-color: #69D2FF;
     margin: 10px;
     padding: 5px;
     height: 250px;
@@ -27,7 +27,7 @@ header {
 }
 
 h1 {
-    font-size: 56px;
+    font-size: 46px;
     font-family: 'Times New Roman', Times, serif;
     color: white;
 }
@@ -37,7 +37,8 @@ main {
     flex-direction: column;
     justify-content: space-evenly;
     font-family: 'Times New Roman', Times, serif;
-    color: silver;
+    color: rgb(107, 102, 102);
+    padding: 10px;
 
 }
 
@@ -45,12 +46,15 @@ main div {
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
+    
 }
 
-input {
+
+
+main input {
     width: 100%;
+    margin: 10px 0px 10px 0px;
     border-radius: 5px;
-    margin: 5px;
     padding: 5px;
     border: 1px solid gray;
 }
@@ -59,14 +63,17 @@ select {
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
+    margin: 10px 0px 10px 0px;
+    border-radius: 5px;
+    border: 1px solid gray;
+    padding: 5px;
 
 }
 option {
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
-    width: auto
-
+    width: auto;
 }
 
 
