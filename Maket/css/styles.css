@@ -121,11 +121,12 @@ label:hover~input[type=date] {
     color: #0073E6;
 }
 
-label:hover~input,
+/* label:hover~input,
 label:hover~textarea,
 label:hover~select {
     border: 1px solid #0073E6;
-}
+} 
+логично добавить, но на макете этого не было*/
 
 
 button:hover {
