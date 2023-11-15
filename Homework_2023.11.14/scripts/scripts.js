@@ -199,7 +199,7 @@ for (let i = 0; i < goods.length; i++) {
     if (discount === 0) {
         console.log(`${title}, Price with Discount (${price})`)
     } else {
-        let discountPrice = price / 100 * discount
+        let discountPrice = price - (price / 100 * discount)
         console.log(`${title}, Price with Discount (${discountPrice})`)
     }
 }
