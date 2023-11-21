@@ -144,3 +144,7 @@ const paragraph = document.createElement("p")
 artDiv1 = document.querySelector(".productDiv")
 paragraph.innerText = `Total Price: ${totalPrice}, Total Quantity: ${totalCount}`
 artDiv1.append(paragraph)
+
+// after добавить элементы после узла
+// before добавить элементы до узла
+// paragraph.after(totalPrice, totalCount)
